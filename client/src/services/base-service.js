@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getSession } from "next-auth/react";
 
-const API_URL = process.env.API_URL || "https://localhost:5000";
+const API_URL = process.env.API_URL || "https://matty-ai-server-3.onrender.com";
 
 export async function fetchWithAuth(endpoint, options = {}) {
   const session = await getSession();
