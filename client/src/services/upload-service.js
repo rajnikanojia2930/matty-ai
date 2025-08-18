@@ -2,7 +2,7 @@ import axios from "axios";
 import { getSession } from "next-auth/react";
 import { fetchWithAuth } from "./base-service";
 
-const API_URL = process.env.API_URL || "https://matty-ai-server.onrender.com";
+const API_URL = process.env.API_URL || "https://local-host:5000";
 
 export async function uploadFileWithAuth(file, metaData = {}) {
   const session = await getSession();

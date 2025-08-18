@@ -60,6 +60,10 @@ app.use(
   })
 );
 
+app.get("/node-version", (req, res) => {
+  res.send(`Node.js version: ${process.version}`);
+});
+
 
 app.get("/", (req, res) => {
   res.send("API Gateway is running");
