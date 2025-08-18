@@ -1,7 +1,7 @@
 {
   "name": "subscription-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "Matty-AI Subscription Service",
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,6 +15,7 @@
   "dependencies": {
     "accepts": "^2.0.0",
     "anymatch": "^3.1.3",
+    "axios": "^1.11.0",
     "balanced-match": "^1.0.2",
     "bcryptjs": "^3.0.2",
     "binary-extensions": "^2.3.0",
